@@ -1,0 +1,7 @@
+.contact-ribbon{position:relative;width:100%;overflow:hidden;margin-top:36px;height:max(124px,11.25vw)}
+.contact-ribbon-art{display:block;position:absolute;width:max(100%,1100px);height:auto;left:50%;top:0;transform:translateX(-50%)}
+.contact-ribbon-art text{font-family:"DM Sans",Arial,sans-serif;font-size:26px;font-weight:400}
+.contact-ribbon-pause{position:absolute;right:32px;bottom:8px;display:grid;place-items:center;width:30px;height:30px;padding:0;border-radius:50%;background:#f6f6f6;color:#666}
+.contact-ribbon-pause:hover{background:#e9edff;color:#315aff}
+.contact-ribbon+.contact{margin-top:18px;padding-top:14px}
+@media(max-width:700px){.contact-ribbon{margin-top:26px}.contact-ribbon-pause{right:20px;bottom:0}.contact-ribbon+.contact{margin-top:16px;padding-top:12px}}

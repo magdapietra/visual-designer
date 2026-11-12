@@ -1,0 +1,11 @@
+.page-drizzle{position:absolute;display:block;height:auto;pointer-events:none;user-select:none;z-index:1}
+.hero-drizzles{position:absolute;inset:0;pointer-events:none;z-index:1}
+.drizzle-hero-loop{width:102px;left:3%;top:28px;transform:rotate(-18deg)}
+.drizzle-hero-spark{width:64px;right:7%;top:65px;transform:rotate(12deg)}
+.drizzle-hero-wave{width:132px;right:4%;top:405px;transform:rotate(-14deg)}
+.work,.about,.contact{position:relative}
+.drizzle-work{width:90px;right:24px;top:-62px;transform:rotate(12deg)}
+.drizzle-about{width:105px;left:10%;bottom:45px;transform:rotate(15deg)}
+.drizzle-contact{width:38px;right:3%;top:-12px;transform:rotate(-20deg)}
+@media(max-width:1050px){.drizzle-hero-loop{width:76px;left:1%;top:20px}.drizzle-hero-spark{width:48px;right:2%;top:35px}.drizzle-hero-wave{width:98px;right:2%;top:425px}.drizzle-about{left:5%}}
+@media(max-width:700px){.drizzle-hero-loop{width:58px;left:8px;top:6px}.drizzle-hero-spark{width:36px;right:10px;top:13px}.drizzle-hero-wave,.drizzle-about{display:none}.drizzle-work{width:62px;right:8px;top:-42px}.drizzle-contact{width:30px;right:12px;top:-8px}}

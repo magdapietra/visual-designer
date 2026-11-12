@@ -1,0 +1,37 @@
+.hero:has(.hero-flow){padding-top:100px;padding-bottom:300px;min-height:750px;isolation:isolate}
+.hero:has(.hero-flow) .hero-copy{z-index:2}
+.hero-flow{--track-width:150vw;--track-bottom:74px;--processor-width:clamp(130px,12vw,180px);--processor-height:clamp(60px,6vw,76px);position:absolute;top:0;bottom:0;left:50%;transform:translateX(-50%);width:calc(100vw - 17px);overflow:hidden;pointer-events:none;z-index:0}
+.flow-track{position:absolute;bottom:var(--track-bottom);left:50%;transform:translateX(-50%);width:var(--track-width);display:flex;align-items:flex-end}
+.flow-track svg{width:50%;height:auto;flex:none;overflow:visible;display:block}
+.flow-handwriting{font-family:"Betania Patmos",cursive;font-size:29px;font-weight:400;fill:#a8a6ac}
+.flow-ribbon{fill:none;stroke:#171717;stroke-width:36}
+.flow-typeset{font-family:"DM Sans",Arial,sans-serif;font-size:23px;font-weight:400;fill:#fff}
+.flow-center{position:absolute;left:50%;bottom:calc(var(--track-bottom) + var(--track-width) * .0138359 - var(--processor-height) * .5);width:var(--processor-width);transform:translateX(-50%)}
+.flow-processor{width:100%;height:var(--processor-height);border:2.5px solid #171717;border-radius:100px;background:#fff;display:flex;align-items:center;justify-content:center;gap:3px;padding:12px;box-shadow:0 0 0 2px #fff}
+
+.flow-edits{position:absolute;bottom:calc(100% + 22px);left:50%;width:150px;height:42px;transform:translateX(-50%);font-family:"Betania Patmos",cursive;font-size:31px;color:#262626;text-align:center}
+.flow-edits span{position:absolute;inset:0;animation:flow-edit 21s linear infinite;opacity:0}
+.flow-edits span:nth-child(2){animation-delay:7s}.flow-edits span:nth-child(3){animation-delay:14s}
+.flow-edits span::after{content:'';position:absolute;width:85px;height:3px;background:#b9a2f4;left:50%;top:53%;border-radius:60%;transform:translateX(-50%) rotate(-3deg) scaleX(0);animation:flow-strike 21s linear infinite;animation-delay:inherit;transform-origin:left}
+.flow-pause{position:absolute;right:30px;bottom:22px;width:30px;height:30px;display:grid;place-items:center;background:#f6f6f6;border-radius:50%;color:#666;pointer-events:auto}
+.flow-pause:hover{background:#e9edff;color:#315aff}.pause-symbol{display:flex;gap:4px}.pause-symbol i{width:2px;height:10px;background:currentColor}.play-symbol{width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:8px solid currentColor;margin-left:2px}.hero-flow.is-paused *{animation-play-state:paused!important}
+
+@keyframes flow-edit{0%{opacity:0;transform:translateY(12px)}5%,24%{opacity:1;transform:translateY(0)}31%,100%{opacity:0;transform:translateY(-12px)}}
+@keyframes flow-strike{0%,10%{transform:translateX(-50%) rotate(-3deg) scaleX(0)}15%,30%{transform:translateX(-50%) rotate(-3deg) scaleX(1)}31%,100%{transform:translateX(-50%) rotate(-3deg) scaleX(0)}}
+@media(min-width:1600px){.hero:has(.hero-flow){padding-top:110px;min-height:790px;padding-bottom:320px}}
+@media(max-width:700px){.hero:has(.hero-flow){padding-top:72px;padding-bottom:285px;min-height:700px}.hero-flow{width:calc(100% + 40px);--track-width:1100px;--track-bottom:68px;--processor-width:120px;--processor-height:62px}.flow-center{left:50%}.flow-handwriting{font-size:34px}.flow-typeset{font-size:27px}.flow-ribbon{stroke-width:43}.flow-processor{gap:2px;padding:10px}.flow-edits{font-size:27px;bottom:calc(100% + 16px)}.flow-pause{right:20px;bottom:17px}}
+@media(prefers-reduced-motion:reduce){.flow-edits,.flow-pause{display:none}}
+.flow-processor{gap:2px;padding:10px}
+@media(max-width:700px){.flow-input #flow-rough-path{d:path('M 0 260 C 180 300 560 420 790 335 C 980 265 900 75 790 140 C 655 220 840 495 1048 565')}}
+.flow-drizzle{display:block;width:100%;height:auto;overflow:visible}
+.flow-drizzle path{stroke:#a078df;stroke-dasharray:1;stroke-dashoffset:0;animation:draw-drizzle 7s ease-in-out infinite}
+@keyframes draw-drizzle{0%{stroke-dashoffset:1;opacity:1}55%,82%{stroke-dashoffset:0;opacity:1}94%,99%{stroke-dashoffset:0;opacity:0}100%{stroke-dashoffset:1;opacity:0}}
+@media(prefers-reduced-motion:reduce){.flow-drizzle path{animation:none;stroke-dashoffset:0;opacity:1}}
+.flow-processor{gap:12px;padding:14px 18px}
+.flow-tool-logo{display:block;flex:0 0 30px;width:30px;height:30px;object-fit:contain;animation:flow-logo 7s ease-in-out infinite}
+.flow-drizzle{flex:1;min-width:0}
+@keyframes flow-logo{0%{opacity:0}8%,82%{opacity:1}94%,100%{opacity:0}}
+@media(max-width:700px){.flow-processor{gap:10px;padding:12px 14px}.flow-tool-logo{flex-basis:24px;width:24px;height:24px}}
+@media(prefers-reduced-motion:reduce){.flow-tool-logo{animation:none;opacity:1}}
+
+

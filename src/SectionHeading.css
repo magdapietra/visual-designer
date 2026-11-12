@@ -1,0 +1,5 @@
+.section-heading{display:flex;align-items:center;gap:18px;min-width:0}.section-heading>span{min-width:0}.heading-doodle{height:56px;width:58px;flex:none;object-fit:contain;user-select:none}.heading-doodle--laptop{width:78px}.heading-doodle--person{width:44px;height:60px}.heading-doodle--bulb{width:48px;height:58px}.about>.section-heading{align-self:start}.ai-intro{align-items:center}
+@media(max-width:700px){.section-heading{gap:13px}.heading-doodle{width:44px;height:45px}.heading-doodle--laptop{width:62px}.heading-doodle--person{width:34px;height:47px}.heading-doodle--bulb{width:38px;height:47px}}
+.heading-doodle{transition:transform .3s cubic-bezier(.2,.7,.3,1);transform-origin:50% 65%}
+@media(hover:hover){.section-heading:hover .heading-doodle{transform:translateY(-2px) rotate(-4deg)}.section-heading:hover .heading-doodle--star{transform:rotate(8deg) scale(1.04)}.section-heading:hover .heading-doodle--person{transform:translateY(-2px) rotate(4deg)}.section-heading:hover .heading-doodle--bulb{transform:translateY(-3px) rotate(-3deg)}}
+@media(prefers-reduced-motion:reduce){.section-heading:hover .heading-doodle{transform:none;transition:none}}

@@ -1,0 +1,471 @@
+[
+  {
+    "id": "899:1067",
+    "src": "/assets/ads/899-1067.jpg",
+    "title": "Drip on-brand emails ad, variation 1 (square)",
+    "campaign": "On-brand emails",
+    "format": "Square"
+  },
+  {
+    "id": "899:1125",
+    "src": "/assets/ads/899-1125.jpg",
+    "title": "Drip on-brand emails ad, variation 2 (square)",
+    "campaign": "On-brand emails",
+    "format": "Square"
+  },
+  {
+    "id": "899:1171",
+    "src": "/assets/ads/899-1171.jpg",
+    "title": "Drip on-brand emails ad, variation 3 (square)",
+    "campaign": "On-brand emails",
+    "format": "Square"
+  },
+  {
+    "id": "899:1235",
+    "src": "/assets/ads/899-1235.jpg",
+    "title": "Drip on-brand emails ad, variation 4 (square)",
+    "campaign": "On-brand emails",
+    "format": "Square"
+  },
+  {
+    "id": "899:1287",
+    "src": "/assets/ads/899-1287.jpg",
+    "title": "Drip on-brand emails ad, variation 5 (square)",
+    "campaign": "On-brand emails",
+    "format": "Square"
+  },
+  {
+    "id": "899:1096",
+    "src": "/assets/ads/899-1096.jpg",
+    "title": "Drip on-brand emails ad, variation 6 (portrait)",
+    "campaign": "On-brand emails",
+    "format": "Portrait"
+  },
+  {
+    "id": "899:1148",
+    "src": "/assets/ads/899-1148.jpg",
+    "title": "Drip on-brand emails ad, variation 7 (portrait)",
+    "campaign": "On-brand emails",
+    "format": "Portrait"
+  },
+  {
+    "id": "899:1203",
+    "src": "/assets/ads/899-1203.jpg",
+    "title": "Drip on-brand emails ad, variation 8 (portrait)",
+    "campaign": "On-brand emails",
+    "format": "Portrait"
+  },
+  {
+    "id": "899:1261",
+    "src": "/assets/ads/899-1261.jpg",
+    "title": "Drip on-brand emails ad, variation 9 (portrait)",
+    "campaign": "On-brand emails",
+    "format": "Portrait"
+  },
+  {
+    "id": "899:1316",
+    "src": "/assets/ads/899-1316.jpg",
+    "title": "Drip on-brand emails ad, variation 10 (portrait)",
+    "campaign": "On-brand emails",
+    "format": "Portrait"
+  },
+  {
+    "id": "921:881",
+    "src": "/assets/ads/921-881.jpg",
+    "title": "Drip email localization ad, variation 11 (square)",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "921:931",
+    "src": "/assets/ads/921-931.jpg",
+    "title": "Drip email localization ad, variation 12 (square)",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "921:993",
+    "src": "/assets/ads/921-993.jpg",
+    "title": "Drip email localization ad, variation 13 (square)",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "921:1053",
+    "src": "/assets/ads/921-1053.jpg",
+    "title": "Drip email localization ad, variation 14 (square)",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "921:1103",
+    "src": "/assets/ads/921-1103.jpg",
+    "title": "Drip email localization ad, variation 15 (square)",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "921:906",
+    "src": "/assets/ads/921-906.jpg",
+    "title": "Drip email localization ad, variation 16 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "921:962",
+    "src": "/assets/ads/921-962.jpg",
+    "title": "Drip email localization ad, variation 17 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "921:1023",
+    "src": "/assets/ads/921-1023.jpg",
+    "title": "Drip email localization ad, variation 18 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "921:1078",
+    "src": "/assets/ads/921-1078.jpg",
+    "title": "Drip email localization ad, variation 19 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "921:1131",
+    "src": "/assets/ads/921-1131.jpg",
+    "title": "Drip email localization ad, variation 20 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "934:1071",
+    "src": "/assets/ads/934-1071.jpg",
+    "title": "Drip design to email ad, variation 21 (square)",
+    "campaign": "Design to email",
+    "format": "Square"
+  },
+  {
+    "id": "934:1115",
+    "src": "/assets/ads/934-1115.jpg",
+    "title": "Drip design to email ad, variation 22 (square)",
+    "campaign": "Design to email",
+    "format": "Square"
+  },
+  {
+    "id": "934:1159",
+    "src": "/assets/ads/934-1159.jpg",
+    "title": "Drip design to email ad, variation 23 (square)",
+    "campaign": "Design to email",
+    "format": "Square"
+  },
+  {
+    "id": "934:1209",
+    "src": "/assets/ads/934-1209.jpg",
+    "title": "Drip design to email ad, variation 24 (square)",
+    "campaign": "Design to email",
+    "format": "Square"
+  },
+  {
+    "id": "934:1093",
+    "src": "/assets/ads/934-1093.jpg",
+    "title": "Drip design to email ad, variation 25 (portrait)",
+    "campaign": "Design to email",
+    "format": "Portrait"
+  },
+  {
+    "id": "934:1137",
+    "src": "/assets/ads/934-1137.jpg",
+    "title": "Drip design to email ad, variation 26 (portrait)",
+    "campaign": "Design to email",
+    "format": "Portrait"
+  },
+  {
+    "id": "934:1184",
+    "src": "/assets/ads/934-1184.jpg",
+    "title": "Drip design to email ad, variation 27 (portrait)",
+    "campaign": "Design to email",
+    "format": "Portrait"
+  },
+  {
+    "id": "934:1240",
+    "src": "/assets/ads/934-1240.jpg",
+    "title": "Drip design to email ad, variation 28 (portrait)",
+    "campaign": "Design to email",
+    "format": "Portrait"
+  },
+  {
+    "id": "961:1714",
+    "src": "/assets/ads/961-1714.jpg",
+    "title": "Drip design to email ad, variation 29 (square)",
+    "campaign": "Design to email",
+    "format": "Square"
+  },
+  {
+    "id": "961:1717",
+    "src": "/assets/ads/961-1717.jpg",
+    "title": "Drip design to email ad, variation 30 (square)",
+    "campaign": "Design to email",
+    "format": "Square"
+  },
+  {
+    "id": "961:1720",
+    "src": "/assets/ads/961-1720.jpg",
+    "title": "Drip design to email ad, variation 31 (square)",
+    "campaign": "Design to email",
+    "format": "Square"
+  },
+  {
+    "id": "961:1723",
+    "src": "/assets/ads/961-1723.jpg",
+    "title": "Drip design to email ad, variation 32 (square)",
+    "campaign": "Design to email",
+    "format": "Square"
+  },
+  {
+    "id": "961:1727",
+    "src": "/assets/ads/961-1727.jpg",
+    "title": "Drip design to email ad, variation 33 (portrait)",
+    "campaign": "Design to email",
+    "format": "Portrait"
+  },
+  {
+    "id": "961:1730",
+    "src": "/assets/ads/961-1730.jpg",
+    "title": "Drip design to email ad, variation 34 (portrait)",
+    "campaign": "Design to email",
+    "format": "Portrait"
+  },
+  {
+    "id": "961:1733",
+    "src": "/assets/ads/961-1733.jpg",
+    "title": "Drip design to email ad, variation 35 (portrait)",
+    "campaign": "Design to email",
+    "format": "Portrait"
+  },
+  {
+    "id": "961:1736",
+    "src": "/assets/ads/961-1736.jpg",
+    "title": "Drip design to email ad, variation 36 (portrait)",
+    "campaign": "Design to email",
+    "format": "Portrait"
+  },
+  {
+    "id": "985:4130",
+    "src": "/assets/ads/985-4130.jpg",
+    "title": "Drip on-brand emails ad, variation 37 (square)",
+    "campaign": "On-brand emails",
+    "format": "Square"
+  },
+  {
+    "id": "985:4133",
+    "src": "/assets/ads/985-4133.jpg",
+    "title": "Drip on-brand emails ad, variation 38 (square)",
+    "campaign": "On-brand emails",
+    "format": "Square"
+  },
+  {
+    "id": "985:4136",
+    "src": "/assets/ads/985-4136.jpg",
+    "title": "Drip on-brand emails ad, variation 39 (square)",
+    "campaign": "On-brand emails",
+    "format": "Square"
+  },
+  {
+    "id": "985:4139",
+    "src": "/assets/ads/985-4139.jpg",
+    "title": "Drip on-brand emails ad, variation 40 (square)",
+    "campaign": "On-brand emails",
+    "format": "Square"
+  },
+  {
+    "id": "988:5085",
+    "src": "/assets/ads/988-5085.jpg",
+    "title": "Drip on-brand emails ad, variation 41 (portrait)",
+    "campaign": "On-brand emails",
+    "format": "Portrait"
+  },
+  {
+    "id": "988:5321",
+    "src": "/assets/ads/988-5321.jpg",
+    "title": "Drip on-brand emails ad, variation 42 (portrait)",
+    "campaign": "On-brand emails",
+    "format": "Portrait"
+  },
+  {
+    "id": "988:5463",
+    "src": "/assets/ads/988-5463.jpg",
+    "title": "Drip on-brand emails ad, variation 43 (portrait)",
+    "campaign": "On-brand emails",
+    "format": "Portrait"
+  },
+  {
+    "id": "988:5559",
+    "src": "/assets/ads/988-5559.jpg",
+    "title": "Drip on-brand emails ad, variation 44 (portrait)",
+    "campaign": "On-brand emails",
+    "format": "Portrait"
+  },
+  {
+    "id": "992:6086",
+    "src": "/assets/ads/992-6086.jpg",
+    "title": "Drip email localization ad, variation 45 (square)",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "992:6089",
+    "src": "/assets/ads/992-6089.jpg",
+    "title": "Drip email localization ad, variation 46 (square)",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "992:6092",
+    "src": "/assets/ads/992-6092.jpg",
+    "title": "Drip email localization ad, variation 47 (square)",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "992:6095",
+    "src": "/assets/ads/992-6095.jpg",
+    "title": "Drip email localization ad, variation 48 (square)",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "995:6962",
+    "src": "/assets/ads/995-6962.jpg",
+    "title": "Drip email localization ad, variation 49 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "995:6994",
+    "src": "/assets/ads/995-6994.jpg",
+    "title": "Drip email localization ad, variation 50 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "995:7027",
+    "src": "/assets/ads/995-7027.jpg",
+    "title": "Drip email localization ad, variation 51 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "995:7056",
+    "src": "/assets/ads/995-7056.jpg",
+    "title": "Drip email localization ad, variation 52 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "476:1135",
+    "src": "/assets/ads/476-1135.jpg",
+    "title": "Drip email localization ad, variation 53 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "476:1140",
+    "src": "/assets/ads/476-1140.jpg",
+    "title": "Drip email localization ad, variation 54 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "476:1146",
+    "src": "/assets/ads/476-1146.jpg",
+    "title": "Drip email localization ad, variation 55 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "476:1153",
+    "src": "/assets/ads/476-1153.jpg",
+    "title": "Drip email localization ad, variation 56 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "476:1164",
+    "src": "/assets/ads/476-1164.jpg",
+    "title": "Drip email localization ad, variation 57 (portrait)",
+    "campaign": "Email localization",
+    "format": "Portrait"
+  },
+  {
+    "id": "482:1230",
+    "src": "/assets/ads/482-1230.jpg",
+    "title": "EVERY MARKET. EVERY EMAIL. Still adapting emails by hand?",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "482:1270",
+    "src": "/assets/ads/482-1270.jpg",
+    "title": "AI localizes Emails Copy, images & links for every market.",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "482:1318",
+    "src": "/assets/ads/482-1318.jpg",
+    "title": "Your email, localized with AI.",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "482:1365",
+    "src": "/assets/ads/482-1365.jpg",
+    "title": "Make every email feel local.",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "482:1414",
+    "src": "/assets/ads/482-1414.jpg",
+    "title": "Use AI to localize emails.",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "482:1465",
+    "src": "/assets/ads/482-1465.jpg",
+    "title": "Localizing emails by hand?",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "482:1504",
+    "src": "/assets/ads/482-1504.jpg",
+    "title": "AI localizes Emails Images & links, too.",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "482:1555",
+    "src": "/assets/ads/482-1555.jpg",
+    "title": "Use AI for local emails.",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "482:1602",
+    "src": "/assets/ads/482-1602.jpg",
+    "title": "AI tailors emails by market.",
+    "campaign": "Email localization",
+    "format": "Square"
+  },
+  {
+    "id": "482:1651",
+    "src": "/assets/ads/482-1651.jpg",
+    "title": "Localize Emails with AI",
+    "campaign": "Email localization",
+    "format": "Square"
+  }
+]

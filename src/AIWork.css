@@ -1,0 +1,35 @@
+.ai-method-layout{display:grid;grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr);gap:40px;align-items:start;margin-top:24px}
+.ai-method{min-height:clamp(520px,85vh,900px);display:flex;flex-direction:column;justify-content:center;padding:28px 0}
+.ai-method h3{font-size:clamp(30px,3vw,42px);line-height:1.15;letter-spacing:-1.2px;font-weight:400;max-width:420px}
+.ai-method p{font-size:20px;line-height:1.6;color:#5c5c5c;max-width:390px;margin-top:20px}
+.ai-method-trigger{display:block;padding:0;background:none;text-align:left;font:inherit;letter-spacing:inherit;line-height:inherit;border-radius:3px}
+.ai-method-trigger:focus-visible{outline:2px solid #315aff;outline-offset:7px}
+.ai-method-stage{position:sticky;top:max(28px,calc(50vh - 200px));min-height:400px;display:grid;align-items:center;min-width:0}
+.ai-method-panel{grid-area:1/1;width:100%;opacity:0;visibility:hidden;transform:translateY(5px);pointer-events:none;transition:opacity .3s ease,transform .3s ease,visibility 0s .3s}
+.ai-method-panel.is-active{opacity:1;visibility:visible;transform:translateY(0);transition-delay:0s}
+.ai-approach-visual{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:center;width:100%}
+.ai-approach-visual img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:14px}
+.ai-visual-experiences{gap:16px;margin:auto}
+.ai-visual-experiences img{aspect-ratio:1;object-fit:cover}
+.ai-visual-repeatable{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.ai-visual-repeatable img{aspect-ratio:auto;object-fit:contain;border-radius:6px}
+.ai-visual-mobile{display:none}
+.project-grid{row-gap:48px}
+.sleeknote-wrapped .project-preview{padding:0;background:#ffdded}
+.sleeknote-wrapped .project-preview>img{width:100%;height:100%;object-fit:cover;border-radius:0;box-shadow:none}
+.learn-to-earn .project-preview{background:#fff;padding:0}
+.project-screens{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:center}
+.project-screens img{display:block;width:100%;height:auto;border-radius:6px;min-width:0}
+.project-preview .project-screens{height:100%}
+.project-preview .project-screens img{max-height:100%;object-fit:contain}
+@keyframes ai-panel-reveal{from{opacity:.35;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:1050px){.ai-method-layout{gap:28px;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr)}.ai-method p{font-size:18px}.ai-approach-visual{gap:12px}.ai-visual-repeatable{gap:6px}}
+@media(max-width:700px){.ai-method-layout{display:block;margin-top:28px}.ai-method{min-height:0;padding:0;margin-bottom:34px}.ai-method:last-child{margin-bottom:0}.ai-method h3{font-size:30px;letter-spacing:-.8px}.ai-method p{font-size:17px;margin-top:14px;max-width:none}.ai-method-stage{display:none}.ai-visual-mobile{display:grid;margin-top:20px}.ai-visual-experiences img{aspect-ratio:1.8}.project-screens{gap:6px}.project-grid{row-gap:43px}}
+@media(prefers-reduced-motion:reduce){.ai-method-panel{animation:none}}
+.ai-approach-visual{grid-template-columns:minmax(0,1fr)}.ai-approach-visual img{aspect-ratio:3/2;object-fit:contain;border-radius:14px}
+.ai-approach-visual{margin:0;row-gap:16px}.ai-approach-visual img{aspect-ratio:auto;height:auto}.ai-approach-visual figcaption{font-size:16px;line-height:1.6;color:#5c5c5c;max-width:680px}.ai-method-stage{top:28px}@media(max-width:700px){.ai-visual-mobile{margin-top:20px}.ai-approach-visual figcaption{font-size:15px;line-height:1.55}}
+.ai-method-stage{align-items:start}.ai-visual-frame{width:100%;aspect-ratio:3/2;overflow:hidden;border-radius:14px;background:#f6f6f6;display:flex;align-items:center;justify-content:center}.ai-visual-frame img,.ai-workflow{display:block;width:100%;height:100%;object-fit:contain;border-radius:0}.ai-visual-frame img{aspect-ratio:auto}.ai-approach-visual{align-items:start}
+.ai-text-only{padding:28px 0;max-width:620px}.ai-text-only p{font-size:clamp(20px,2vw,26px);line-height:1.6;color:#5c5c5c;margin:0;max-width:none}@media(max-width:700px){.ai-text-only{padding:0}.ai-text-only p{font-size:17px}}
+@media(min-width:701px){.ai-method-panel:has(.ai-text-only){align-self:center}.ai-method-panel>.ai-text-only{min-height:clamp(520px,85vh,900px);display:flex;align-items:center;padding:0}}
+@media(min-width:701px){.ai-method-panel>.ai-text-only{transform:translateY(var(--text-row-offset,0px))}}
+.ai-method-panel.is-active{pointer-events:auto}
