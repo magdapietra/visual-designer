@@ -35,3 +35,4 @@
 @media(prefers-reduced-motion:reduce){.flow-tool-logo{animation:none;opacity:1}}
 
 
+.hero .hero-description{max-width:680px;margin-inline:auto}

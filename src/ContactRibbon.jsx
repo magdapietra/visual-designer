@@ -1,9 +1,8 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import './ContactRibbon.css';
 
-const email = 'magdalena.pietras@sleeknote.com';
-const phone = '+45 XX XX XX XX';
-const contact = `${email}   ·   ${phone}   ·   `;
+const phone = '+45 71 81 76 19';
+const contact = `I will call you back   ·   ${phone}   ·   `;
 
 export function ContactRibbon() {
   const ribbon = useRef(null);
@@ -31,7 +30,7 @@ export function ContactRibbon() {
   }, [paused, hovered, reduced]);
 
   return <div className="contact-ribbon" role="region" aria-label="Contact details" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
-    <p className="sr-only">Email: <a href={`mailto:${email}`}>{email}</a>. Phone number placeholder: {phone}.</p>
+    <p className="sr-only">I will call you back. <a href="tel:+4571817619">{phone}</a>.</p>
     <svg ref={ribbon} viewBox="0 0 1600 180" aria-hidden="true" className="contact-ribbon-art">
       <path id="contact-ribbon-path" d="M -1600 80 C -900 80 -500 -60 0 80 C 500 220 1000 -35 1600 65 C 2200 165 2700 80 3200 80" fill="none" stroke="#171717" strokeWidth="46" />
       <text ref={measure} visibility="hidden" xmlSpace="preserve">{contact}</text>

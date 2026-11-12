@@ -20,7 +20,7 @@ export function AdCarousel() {
     if (Math.abs(distance) > 45) { gesture.current.dragged = true; move(distance < 0 ? 1 : -1); }
   };
   return <section className="ad-section" id="ad-automation" aria-labelledby="ad-heading">
-    <div className="ad-heading wrap"><SectionHeading id="ad-heading" icon="star">AI Ad Automation.</SectionHeading><p>I use AI to take paid-ad ideas through visual exploration, Figma layouts, and format variations—then refine the details for the brand.</p></div>
+    <div className="ad-heading wrap"><SectionHeading id="ad-heading" icon="star">AI Ad Automation.</SectionHeading><p>I use AI to take paid-ad ideas through visual exploration, Figma layouts, and format variations.</p></div>
     <div className="ad-stage" onKeyDown={onKeyDown} onPointerDown={onPointerDown} onPointerUp={onPointerUp} tabIndex={0} role="region" aria-roledescription="carousel" aria-label="Paid ad designs">
       {[-2,-1,0,1,2].map(offset => {
         const index = wrap(active + offset);
@@ -50,5 +50,3 @@ export function AdCarousel() {
     <span className="sr-only" aria-live="polite" aria-atomic="true">{squareAds[active].title}</span>
   </section>;
 }
-
-

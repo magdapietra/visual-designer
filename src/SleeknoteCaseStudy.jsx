@@ -60,7 +60,7 @@ export function SleeknoteCaseStudy() {
         <h2>What I made.<br />What comes next.</h2>
         <div><p>The output is a dashboard direction informed by collected feedback and an AI-coded builder prototype. There are no measured launch results for the builder because it is not live.</p><p>The next step would be to revisit the original feedback and observe people finding a campaign, interpreting its performance and editing a popup. Comparing list and grid use, checking keyboard and touch access, and testing whether the step labels clarify progress would show what to keep or refine.</p></div>
       </section>
-      <div className="dashboard-case-end"><a className="primary" href="mailto:magdalena.pietras@sleeknote.com">Let’s talk about the work</a><a href={sitePath('/#work')}>More selected work</a></div>
+      <div className="dashboard-case-end"><a className="primary" href="mailto:magda.pietras.con@gmail.com">Let’s talk about the work</a><a href={sitePath('/#work')}>More selected work</a></div>
     </main>
     <SiteFooter />
   </>;
